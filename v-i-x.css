@@ -33,3 +33,32 @@
 	--icon-spin-transition: none;
 }
 
+.wrapper_f90abb:hover .childWrapper_f90abb::before {
+	/* prettier-ignore */
+	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transform: rotate(0deg) scale(1);
+}
+.side_a0 .item_a0 /* settings */ {
+	transition: margin-left var(--list-item-transition);
+}
+.contents_dd4f85 > .closeIcon_f9a4c9 /* modal close */ {
+	transition: transform var(--icon-spin-transition);
+}
+.newMessagesBar_cf58b5 {
+	top: -48px;
+	height: 72px;
+	transition: top var(--unread-bar-transition);
+	background: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+.top_eba0ba > .containerPadding_eba0ba {
+	padding: 16px;
+	margin-top: -40px;
+	transition: margin-top var(--unread-bar-transition);
+}
+.bottom_eba0ba > .containerPadding_eba0ba {
+	padding: 16px;
+	margin-bottom: -40px;
+	transition: margin-bottom var(--unread-bar-transition);
+}
